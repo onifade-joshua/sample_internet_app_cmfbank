@@ -1,0 +1,92 @@
+    *,
+    *::before,
+    *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /*General variables*/
+    
+    html {
+        font-size: 14px;
+    }
+    
+    body {
+        background-color: rgb(202, 236, 225);
+    }
+    
+    .content {
+        margin: 4%;
+        background-color: #fff;
+        padding: 2rem 1rem 2rem 1rem;
+    }
+    
+    .form-control {
+        display: block;
+        width: 100%;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.8;
+        border-color: #00ac96;
+        height: auto;
+    }
+    
+    label {
+        line-height: 1.8;
+    }
+    /*Social links variales*/
+    
+    .google,
+    .facebook {
+        border: 1px solid lightblue;
+        border-radius: 0.5rem;
+        padding: 0.5rem;
+        font-size: 14px;
+        width: 45%;
+        text-decoration: none;
+        color: black;
+        background-color: rgb(247, 247, 247);
+        text-align: center;
+    }
+    
+    .google:hover,
+    .facebook:hover {
+        color: black;
+    }
+    /*text-line area*/
+    
+    .text_lines {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    
+    .text_lines:before,
+    .text_lines:after {
+        content: "";
+        flex: 1 1;
+        border-bottom: 1px solid;
+        margin: auto;
+        color: rgb(208, 208, 202);
+    }
+    
+    .text_lines:before {
+        margin-right: 10px;
+    }
+    
+    .text_lines:after {
+        margin-left: 10px;
+    }
+    /*Btn*/
+    
+    .btn {
+        border: none;
+        outline: none;
+        background: rgb(49, 49, 224);
+        color: white;
+        border-radius: 8px;
+    }
+    
+    .btn:hover {
+        background: rgb(203, 230, 239);
+    }

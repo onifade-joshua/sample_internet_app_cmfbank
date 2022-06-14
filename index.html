@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Onifade Joshua">
+    <!--Material CDN-->
+    <script src="https://kit.fontawesome.com/963bdebe65.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Special+Elite&display=swap" rel="stylesheet">
+    <!--Style sheet -->
+    <link rel="stylesheet" type="text/css" href="style.css" class="css">
+    <link rel="shortcut icon" href="img_folder/CMFB-Logo-icon.png" type="image/x-icon">
+    <title>CMFB Internet banking - Covenant MFB</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="img_folder/CMFB-Logo.png" id="logo" alt="cmfbank logo">
+                    <span class="logo-name">ONLINE BANKING</span>
+                </div>
+
+                <div class="close" id="close-btn">
+                    <i class="fa fa-times-circle" aria-hidden="true"></i>
+                </div>
+
+            </div>
+            <div class="sidebar">
+                <a href="#" class="active">
+                    <i class="fa fa-user-circle" aria-hidden="true"></i>
+                    <h3>My Account</h3>
+                </a>
+
+                <a href="#">
+                    <i class="fa fa-book" aria-hidden="true"></i>
+                    <h3>Statement & Report</h3>
+                </a>
+
+                <a href="#">
+                    <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+                    <h3>Saved Cards</h3>
+                </a>
+
+                <a href="#">
+                    <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                    <h3>Linked Account</h3>
+                </a>
+
+                <a href="#">
+                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                    <h3>Get Help</h3>
+                </a>
+
+                <a href="#">
+                    <i class="fa fa-lock" aria-hidden="true"></i>
+                    <h3>Security</h3>
+                </a>
+
+                <a href="#">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <h3>Message</h3>
+                    <span class="message-count">20</span>
+                </a>
+
+                <a href="#">
+                    <i class="fa fa-tachometer" aria-hidden="true"></i>
+                    <h3>Account Limit</h3>
+                </a>
+
+                <a href="#">
+                    <i class="fa fa-file-text" aria-hidden="true"></i>
+                    <h3>Legal</h3>
+                </a>
+
+                <a href="#">
+                    <i class="fa fa-sign-out" aria-hidden="true"></i>
+                    <h3>Sign Out</h3>
+                </a>
+
+            </div>
+        </aside>
+        <!--end of aside-->
+        <main>
+
+            <div class="company-name" style="text-align: center; color: var(--color-secondary); padding-top: 1rem;">
+                <h1>Covenant Micro Finance Bank Ltd</h1>
+            </div>
+
+
+            <div class="user-details">
+                <img class="user-img" src="img_folder/profile_picture.JPG" alt="profile picture">
+                <h3>Hi, Williams Kimberly</h3>
+            </div>
+
+
+            <div class="date">
+                <span style="font-size: 14px;">Last logon</span>
+                <input type="date">
+                <input type="time">
+            </div>
+
+
+            <div class="insights">
+                <div class="account-balance">
+                    <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Account Balance</h3>
+                            <h1>N20,500.456</h1>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+
+                <div class="mortgage">
+                    <i class="fa fa-university" aria-hidden="true"></i>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Mortgage</h3>
+                            <h1>N170,500.421</h1>
+                        </div>
+
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+
+                <div class="loan">
+                    <i class="fa fa-money" aria-hidden="true"></i>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Loan</h3>
+                            <h1>N55,500.456</h1>
+                        </div>
+
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+
+            </div>
+            <!--end of insights-->
+
+            <div class="transaction-history">
+                <h2>Transaction History</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Account Name</th>
+                            <th>Account Number</th>
+                            <th>Bank Name</th>
+                            <th>Amount</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Thompson Bill</td>
+                            <td>2254854309</td>
+                            <td>Zenith bank</td>
+                            <td>N90000</td>
+                            <td class="warning">Pending</td>
+                            <td class="details">Details</td>
+                        </tr>
+
+                        <tr>
+                            <td>Owolabi Daniel</td>
+                            <td>7454854309</td>
+                            <td>Keystone bank</td>
+                            <td>N87000</td>
+                            <td class="warning">Pending</td>
+                            <td class="details">Details</td>
+                        </tr>
+
+
+
+                        <tr>
+                            <td>Oyedepo David</td>
+                            <td>2254853305</td>
+                            <td>GT Bank</td>
+                            <td>N38000</td>
+                            <td class="warning">Pending</td>
+                            <td class="details">Details</td>
+                        </tr>
+
+                        <tr>
+                            <td>Adekoya Abayomi</td>
+                            <td>2254814709</td>
+                            <td>First Bank</td>
+                            <td>N60000</td>
+                            <td class="warning">Pending</td>
+                            <td class="details">Details</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+                <a href="#">Show All</a>
+            </div>
+        </main>
+        <!--end of main-->
+        <div class="right-side">
+            <div class="top-right">
+                <button id="menu-btn">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+                <div class="theme-toggler">
+                    <i class="fa fa-sun-o active" aria-hidden="true"></i>
+                    <i class="fa fa-moon-o" aria-hidden="true"></i>
+                </div>
+            </div>
+            <!--end of Top Right-->
+            <div class="request-loan">
+                <h2>Request for Loan</h2>
+                <button class="request-btn">Apply for loan</button>
+            </div>
+
+
+            <div class="payment">
+                <h2>Covenant Payments</h2>
+                <button class="payment-btn">Payment</button>
+            </div>
+
+
+            <div class="analytics">
+                <h2>Transaction Payment</h2>
+                <div class="item online">
+                    <div class="icon">
+                        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    </div>
+                    <button class="cart-shopping-btn">Transfer</button>
+                </div>
+
+                <div class="item offline">
+                    <div class="icon">
+                        <i class="fa fa-cc-discover" aria-hidden="true"></i>
+                    </div>
+                    <button class="cart-shopping-btn">Paystack </button>
+                </div>
+
+
+                <div class="item both add-product">
+                    <div class="icon">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                    </div>
+                    <button class="cart-shopping-btn">ACH Bills</button>
+                </div>
+
+
+                <div class="item both add-product">
+                    <div class="icon">
+                        <i class="fa fa-plus" aria-hidden="true"></i>
+                    </div>
+                    <button class="cart-shopping-btn ">Desposit</button>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <script src="/script_folder/script.js"></script>
+    <script src="/script_folder/history.js"></script>
+</body>
+
+</html>
